@@ -96,7 +96,6 @@ local void treeforce(void)
 {
     bodyptr p;
 
-    #pragma omp parallel for private(p)
     for (p = bodytab; p < bodytab+nbody; p++)   /* loop over all bodies     */
         Update(p) = TRUE;                       /* update all forces        */
     maketree(bodytab, nbody);                   /* construct tree structure */
@@ -115,19 +114,17 @@ local void stepsystem(void)
 #endif
     bodyptr p;
 
-    #pragma omp parallel for private(p)
     for (p = bodytab; p < bodytab+nbody; p++) { /* loop over all bodies     */
         ADDMULVS(Vel(p), Acc(p), 0.5 * dtime);  /* advance v by 1/2 step    */
         ADDMULVS(Pos(p), Vel(p), dtime);        /* advance r by 1 step      */
     }
-    #pragma omp barrier
     treeforce();  
 
-    #pragma omp parallel for private(p)                              /* perform force calc.      */
+                                 /* perform force calc.      */
     for (p = bodytab; p < bodytab+nbody; p++) { /* loop over all bodies     */
         ADDMULVS(Vel(p), Acc(p), 0.5 * dtime);  /* advance v by 1/2 step    */
     }
-    #pragma omp barrier
+    
     nstep++;                                    /* count another time step  */
     tnow = tnow + dtime;                        /* finally, advance time    */
 }
@@ -243,8 +240,8 @@ local void testdata(void)
         ADDMULVS(rcm, Pos(p), 1.0 / nbody);     /* accumulate cm position   */
         ADDMULVS(vcm, Vel(p), 1.0 / nbody);     /* accumulate cm velocity   */
     }
+    #pragma omp barrier
 
-    #pragma omp parallel for private(p)
     for (p = bodytab; p < bodytab+nbody; p++) { /* loop over bodies again   */
         SUBV(Pos(p), Pos(p), rcm);              /* subtract cm position     */
         SUBV(Vel(p), Vel(p), vcm);              /* subtract cm velocity     */

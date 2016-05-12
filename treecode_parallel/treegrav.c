@@ -226,6 +226,7 @@ local void sumnode(cellptr start, cellptr finish,
     vector dr;
 
     eps2 = eps * eps;                           /* avoid extra multiplys    */
+    #pragma omp parallel for private(p)
     for (p = start; p < finish; p++) {          /* loop over node list      */
         DOTPSUBV(dr2, dr, Pos(p), pos0);        /* compute separation       */
                                                 /* and distance squared     */
@@ -250,6 +251,7 @@ local void sumcell(cellptr start, cellptr finish,
     vector dr, qdr;
 
     eps2 = eps * eps;
+    #pragma omp parallel for private(p)
     for (p = start; p < finish; p++) {          /* loop over node list      */
         DOTPSUBV(dr2, dr, Pos(p), pos0);        /* do mono part of force    */
         dr2 += eps2;
