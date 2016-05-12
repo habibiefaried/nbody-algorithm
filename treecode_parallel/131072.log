@@ -1,0 +1,395 @@
+
+Hierarchical N-body code (theta scan)
+
+   nbody     dtime       eps     theta   usequad     dtout     tstop
+  131072   0.03125    0.0250      1.00     false   0.25000    2.0000
+KAPAN INI KELUAR (disini hitungnya)
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	    64.0      17   3.074    1981  28342780 147630385   0.034
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.000 0.24948 0.24923 0.49870 0.49975 0.00000 0.00077   0.038
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	    64.0      15   3.071    1973  28336837 147504841   0.033
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.031 0.24947 0.24919 0.49866 0.49972 0.00000 0.00077   0.073
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	    64.0      16   3.066    1970  28366317 147609728   0.032
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.062 0.24947 0.24915 0.49862 0.49968 0.00000 0.00077   0.107
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	    64.0      16   3.070    1964  28300035 147603157   0.033
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.094 0.24947 0.24911 0.49858 0.49963 0.00000 0.00077   0.142
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	    64.0      16   3.076    1967  28106250 147614408   0.033
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.125 0.24945 0.24906 0.49851 0.49960 0.00000 0.00077   0.177
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	    64.0      17   3.069    1965  27984956 147534911   0.033
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.156 0.24945 0.24900 0.49845 0.49955 0.00000 0.00077   0.211
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	    64.0      15   3.080    1967  27849901 147609947   0.033
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.188 0.24946 0.24894 0.49840 0.49947 0.00001 0.00077   0.246
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	    64.0      17   3.067    1966  27461052 147621272   0.032
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.219 0.24945 0.24887 0.49832 0.49941 0.00001 0.00076   0.280
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	    64.0      15   3.077    1976  27606699 147494180   0.032
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.250 0.24946 0.24880 0.49826 0.49934 0.00001 0.00076   0.315
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	    64.0      16   3.079    1990  27547245 147587667   0.032
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.281 0.24945 0.24872 0.49817 0.49926 0.00001 0.00076   0.349
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	    64.0      16   3.070    1980  27436238 147653531   0.032
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.312 0.24945 0.24863 0.49808 0.49918 0.00001 0.00076   0.384
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	    64.0      16   3.081    1973  27479215 147772817   0.032
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.344 0.24945 0.24854 0.49799 0.49909 0.00001 0.00076   0.418
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	    64.0      15   3.077    1960  27327157 147600545   0.032
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.375 0.24946 0.24845 0.49790 0.49899 0.00001 0.00076   0.452
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	    64.0      15   3.077    1958  27357084 147582339   0.032
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.406 0.24946 0.24836 0.49781 0.49890 0.00001 0.00076   0.487
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	    64.0      15   3.076    1953  27443786 147469306   0.032
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.438 0.24946 0.24825 0.49771 0.49879 0.00001 0.00076   0.521
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	    64.0      16   3.072    1958  27315973 147805219   0.032
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.469 0.24945 0.24815 0.49760 0.49869 0.00001 0.00076   0.555
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	    64.0      16   3.061    1947  27160905 147488044   0.032
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.500 0.24945 0.24804 0.49750 0.49858 0.00001 0.00076   0.590
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	    64.0      15   3.069    1956  27259580 147792332   0.032
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.531 0.24946 0.24793 0.49740 0.49847 0.00001 0.00076   0.625
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	    64.0      16   3.071    1958  27343632 147754254   0.032
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.562 0.24946 0.24783 0.49729 0.49835 0.00001 0.00076   0.659
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	    64.0      16   3.075    1984  27283963 147760667   0.032
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.594 0.24946 0.24772 0.49718 0.49825 0.00001 0.00076   0.693
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	    64.0      16   3.074    1977  27530595 147802383   0.032
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.625 0.24947 0.24762 0.49708 0.49814 0.00001 0.00076   0.728
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	    64.0      16   3.075    1985  27620065 147862818   0.032
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.656 0.24947 0.24751 0.49698 0.49803 0.00001 0.00076   0.762
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	    64.0      16   3.076    1987  27704292 147750435   0.032
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.688 0.24946 0.24741 0.49687 0.49793 0.00001 0.00076   0.797
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	    64.0      16   3.074    1977  27697005 147566989   0.032
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.719 0.24947 0.24731 0.49677 0.49783 0.00001 0.00076   0.831
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	    64.0      15   3.072    1974  27718141 147689640   0.033
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.750 0.24946 0.24721 0.49667 0.49773 0.00001 0.00076   0.866
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	    64.0      16   3.074    1975  27677030 147686679   0.033
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.781 0.24947 0.24711 0.49659 0.49762 0.00001 0.00076   0.900
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	    64.0      15   3.075    1963  27508558 147654980   0.032
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.812 0.24947 0.24702 0.49650 0.49754 0.00001 0.00076   0.935
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	    64.0      16   3.069    1969  27428530 147809736   0.033
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.844 0.24948 0.24694 0.49641 0.49744 0.00001 0.00076   0.969
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	    64.0      16   3.077    1977  27570318 147893942   0.033
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.875 0.24948 0.24685 0.49633 0.49736 0.00001 0.00076   1.004
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	    64.0      16   3.074    1972  27403616 147959586   0.033
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.906 0.24948 0.24677 0.49625 0.49727 0.00001 0.00076   1.038
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	    64.0      16   3.071    1989  27671254 147933555   0.033
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.938 0.24948 0.24669 0.49617 0.49720 0.00001 0.00076   1.073
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	    64.0      16   3.072    1977  27617412 148098175   0.033
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.969 0.24948 0.24662 0.49609 0.49712 0.00001 0.00076   1.107
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	    64.0      17   3.072    1972  27450757 148115084   0.033
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.000 0.24949 0.24655 0.49603 0.49704 0.00001 0.00076   1.142
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	    64.0      16   3.074    1973  27402275 148207560   0.033
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.031 0.24948 0.24648 0.49596 0.49698 0.00001 0.00076   1.177
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	    64.0      16   3.074    1973  27485794 148127086   0.033
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.062 0.24948 0.24641 0.49589 0.49691 0.00001 0.00076   1.211
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	    64.0      16   3.064    1983  27531400 148397347   0.033
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.094 0.24948 0.24636 0.49584 0.49686 0.00001 0.00076   1.246
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	    64.0      16   3.074    1988  27565214 148465377   0.033
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.125 0.24948 0.24630 0.49579 0.49679 0.00001 0.00076   1.280
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	    64.0      15   3.069    1979  27710112 148357622   0.033
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.156 0.24949 0.24625 0.49574 0.49674 0.00001 0.00076   1.315
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	    64.0      15   3.076    1980  27926345 148138833   0.033
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.188 0.24949 0.24620 0.49569 0.49668 0.00001 0.00076   1.349
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	    64.0      16   3.074    1975  27855075 148093563   0.032
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.219 0.24949 0.24616 0.49564 0.49664 0.00001 0.00076   1.384
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	    64.0      16   3.071    1985  27864897 148126879   0.033
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.250 0.24948 0.24612 0.49560 0.49660 0.00000 0.00076   1.419
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	    64.0      16   3.069    1990  27887887 148279367   0.033
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.281 0.24947 0.24608 0.49555 0.49657 0.00000 0.00076   1.453
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	    64.0      16   3.077    1981  27766936 148222510   0.033
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.312 0.24948 0.24604 0.49552 0.49653 0.00000 0.00076   1.488
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	    64.0      16   3.075    1982  27782086 148265743   0.033
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.344 0.24948 0.24601 0.49549 0.49650 0.00000 0.00076   1.523
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	    64.0      16   3.082    1966  28024886 148048807   0.033
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.375 0.24947 0.24598 0.49544 0.49648 0.00001 0.00076   1.557
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	    64.0      16   3.078    1967  27991789 148092529   0.033
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.406 0.24947 0.24595 0.49542 0.49644 0.00000 0.00076   1.592
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	    64.0      17   3.074    1981  28067596 148288705   0.033
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.438 0.24947 0.24592 0.49539 0.49642 0.00000 0.00076   1.626
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	    64.0      16   3.075    1985  27979474 148220877   0.033
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.469 0.24946 0.24589 0.49536 0.49640 0.00001 0.00076   1.661
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	    64.0      16   3.067    1973  28009555 148136307   0.033
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.500 0.24947 0.24587 0.49534 0.49636 0.00001 0.00076   1.696
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	    64.0      16   3.072    1968  28198331 147728107   0.033
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.531 0.24947 0.24584 0.49531 0.49633 0.00001 0.00076   1.730
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	    64.0      16   3.071    1975  28258593 147809341   0.033
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.562 0.24946 0.24582 0.49528 0.49633 0.00001 0.00076   1.765
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	    64.0      17   3.076    1975  28094652 147843385   0.033
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.594 0.24946 0.24580 0.49527 0.49630 0.00001 0.00076   1.799
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	    64.0      16   3.069    1982  28095307 148046702   0.033
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.625 0.24946 0.24578 0.49524 0.49628 0.00001 0.00076   1.834
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	    64.0      16   3.070    1967  27956467 148158087   0.033
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.656 0.24946 0.24576 0.49522 0.49626 0.00001 0.00076   1.869
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	    64.0      16   3.070    1966  27871524 147949050   0.032
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.688 0.24947 0.24574 0.49521 0.49624 0.00001 0.00076   1.904
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	    64.0      16   3.071    1965  27904143 147936702   0.033
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.719 0.24947 0.24573 0.49519 0.49622 0.00001 0.00076   1.938
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	    64.0      17   3.075    1968  27524765 148004897   0.032
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.750 0.24947 0.24571 0.49517 0.49620 0.00001 0.00076   1.972
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	    64.0      16   3.075    1963  27561437 147800604   0.032
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.781 0.24947 0.24569 0.49516 0.49619 0.00001 0.00076   2.007
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	    64.0      17   3.070    1958  27583319 147781081   0.032
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.812 0.24947 0.24568 0.49515 0.49617 0.00001 0.00076   2.041
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	    64.0      15   3.070    1969  27561782 147981617   0.032
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.844 0.24947 0.24567 0.49514 0.49616 0.00001 0.00076   2.076
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	    64.0      16   3.072    1973  27639891 148005087   0.032
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.875 0.24948 0.24566 0.49513 0.49615 0.00001 0.00076   2.110
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	    64.0      16   3.070    1966  27595945 148160747   0.032
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.906 0.24948 0.24565 0.49513 0.49613 0.00001 0.00076   2.144
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	    64.0      16   3.071    1961  27660534 148208781   0.032
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.938 0.24948 0.24564 0.49512 0.49612 0.00000 0.00076   2.179
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	    64.0      15   3.077    1967  27943827 148141841   0.033
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.969 0.24948 0.24564 0.49511 0.49612 0.00000 0.00076   2.213
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	    64.0      15   3.067    1976  28050630 148026916   0.033
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       2.000 0.24947 0.24563 0.49510 0.49612 0.00000 0.00076   2.248
