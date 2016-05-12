@@ -62,7 +62,7 @@ local void testdata(void);                      /* generate test data       */
 int main(int argc, string argv[])
 {
     omp_set_dynamic(0);
-    omp_set_num_threads(4);
+    omp_set_num_threads(8);
     initparam(argv, defv);                      /* initialize param access  */
     headline = defv[0] + 1;                     /* skip ";" in headline     */
     startrun();                                 /* get params & input data  */
