@@ -207,6 +207,7 @@ local void diagnostics(void)
     CLRV(amvec);                                /* zero am vector           */
     CLRV(cmpos);                                /* zero c. of m. position   */
     CLRV(cmvel);                                /* zero c. of m. velocity   */
+    #pragma omp parallel for private(p)
     for (p = bodytab; p < bodytab+nbody; p++) { /* loop over all particles  */
         mtot += Mass(p);                        /* sum particle masses      */
         DOTVP(velsq, Vel(p), Vel(p));           /* square vel vector        */

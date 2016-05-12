@@ -121,6 +121,7 @@ local void expandbox(bodyptr btab, int nbody)
     int k;
 
     dmax = 0.0;                                 /* keep track of max value  */
+    #pragma omp parallel for private(p)
     for (p = btab; p < btab+nbody; p++)         /* loop over all bodies     */
         for (k = 0; k < NDIM; k++) {            /* and over all dimensions  */
             d = rabs(Pos(p)[k] - Pos(root)[k]); /* find distance to midpnt  */
